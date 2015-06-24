@@ -1,0 +1,132 @@
+@-webkit-keyframes anima{
+	/*from{
+		background-color: red;
+	}*/
+/*	to{
+		background-color: blue;
+		width: 600px;
+		height: 600px;
+	}*/
+
+	25%{
+		background-color: yellow;
+		top: 0;
+		left: 600px;
+	}
+
+	50%{
+		background-color: red;
+		width: 600px;
+		height: 600px;
+
+		top: 600px;
+		left: 600px;
+
+		-webkit-transform: rotate(180deg);
+	}
+
+	75%{
+		background-color: navy;
+		top: 600px;
+		left: 0;
+	}
+
+/*	100%{
+		background-color: red;
+		width: 600px;
+		height: 600px;
+	}*/
+}
+
+@-moz-keyframes anima{
+	25%{
+		background-color: yellow;
+		top: 0;
+		left: 600px;
+	}
+
+	50%{
+		background-color: red;
+		width: 600px;
+		height: 600px;
+
+		top: 600px;
+		left: 600px;
+
+		-moz-transform: rotate(180deg);
+	}
+
+	75%{
+		background-color: navy;
+		top: 600px;
+		left: 0;
+	}
+}
+
+@-o-keyframes anima{
+	25%{
+		background-color: yellow;
+		top: 0;
+		left: 600px;
+	}
+
+	50%{
+		background-color: red;
+		width: 600px;
+		height: 600px;
+
+		top: 600px;
+		left: 600px;
+
+		-o-transform: rotate(180deg);
+	}
+
+	75%{
+		background-color: navy;
+		top: 600px;
+		left: 0;
+	}
+}
+
+@keyframes anima{
+	25%{
+		background-color: yellow;
+		top: 0;
+		left: 600px;
+	}
+
+	50%{
+		background-color: red;
+		width: 600px;
+		height: 600px;
+
+		top: 600px;
+		left: 600px;
+
+		transform: rotate(180deg);
+	}
+
+	75%{
+		background-color: navy;
+		top: 600px;
+		left: 0;
+	}
+}
+.animation{
+
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	width: 300px;
+	height: 300px;
+	padding: 20px;
+	font-size: 36px;
+	background-color: #B300B4;
+	color: lime;
+
+	-webkit-animation: anima 3s linear infinite alternate;
+	   -moz-animation: anima 3s linear infinite alternate;
+		 -o-animation: anima 3s linear infinite alternate;
+			animation: anima 3s linear infinite alternate;
+}
