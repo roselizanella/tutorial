@@ -1,0 +1,7 @@
+Download NodeJS
+Install NodeJS
+MAC -- sudo npm install http-server -g
+WIN -- npm install http-server -g
+
+MAC -- cd Desktop/www.tutorial.com
+    -- http-server -a 127.0.0.1 -p 8080
