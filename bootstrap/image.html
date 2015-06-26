@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+<!-- Deixa a tela 1 para 1 a partir do celular para desktop -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Image</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- //importante a ordem de inclusao dos arquivos primeiro o do bootstrap -->
+	<link rel="stylesheet" href="image.css">
+</head>
+<body>
+
+	<div class="container-fluid">
+<!-- 	faz uma borda arredondada -->
+		<div class="row row-1">
+			<div class="col-xs-3"><img class="img-rounded" src="http://lorempixel.com/300/300/people/6" alt=""></div>
+			<div class="col-xs-3"><img class="img-rounded" src="http://lorempixel.com/300/300/people/7" alt=""></div>
+			<div class="col-xs-3"><img class="img-rounded" src="http://lorempixel.com/300/300/people/8" alt=""></div>
+			<div class="col-xs-3"><img class="img-rounded" src="http://lorempixel.com/300/300/people/9" alt=""></div>
+		</div>
+		<div class="row row-2">
+<!-- transforma a imagem em circulo -->
+			<div class="col-xs-3"><img class="img-circle img-responsive" src="http://lorempixel.com/300/300/people/6" alt=""></div>
+			<div class="col-xs-3"><img class="img-circle img-responsive" src="http://lorempixel.com/300/300/people/7" alt=""></div>
+			<div class="col-xs-3"><img class="img-circle img-responsive" src="http://lorempixel.com/300/300/people/8" alt=""></div>
+			<div class="col-xs-3"><img class="img-circle img-responsive" src="http://lorempixel.com/300/300/people/9" alt=""></div>
+		</div>
+		<div class="row row-3">
+<!-- transforma em thumbnail responsivo -->
+			<div class="col-xs-3"><img class="img-thumbnail" src="http://lorempixel.com/300/300/people/6" alt=""></div>
+			<div class="col-xs-3"><img class="img-thumbnail" src="http://lorempixel.com/300/300/people/7" alt=""></div>
+			<div class="col-xs-3"><img class="img-thumbnail" src="http://lorempixel.com/300/300/people/8" alt=""></div>
+			<div class="col-xs-3"><img class="img-thumbnail" src="http://lorempixel.com/300/300/people/9" alt=""></div>
+		</div>
+		<div class="row row-4">
+			<div class="col-xs-3"><img class="img-responsive" src="http://lorempixel.com/300/300/people/6" alt=""></div>
+			<div class="col-xs-3"><img class="img-responsive" src="http://lorempixel.com/300/300/people/7" alt=""></div>
+			<div class="col-xs-3"><img class="img-responsive" src="http://lorempixel.com/300/300/people/8" alt=""></div>
+			<div class="col-xs-3"><img class="img-responsive" src="http://lorempixel.com/300/300/people/9" alt=""></div>
+		</div>
+	</div>
+
+<!-- Primiero colocar o jquery depois a js do booststrap, essa ordem nao pode ser mudada -->
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
