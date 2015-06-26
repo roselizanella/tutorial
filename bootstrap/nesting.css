@@ -1,0 +1,20 @@
+h2{
+	margin: 0;
+}
+.parent-a{
+	background-color: bisque;
+}
+.parent-b{
+	background-color: lemonchiffon;
+}
+.child-1{
+	background-color: azure;
+}
+.child-2{
+	background-color: palevioletred;
+}
+
+.parent-a,
+.parent-b {
+	height: 600px;
+}
