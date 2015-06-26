@@ -1,0 +1,16 @@
+div[class*="col"]{
+	height: 600px;
+}
+
+.col-1{
+	background-color: violet;
+}
+.col-2{
+	background-color: lightsalmon;
+}
+.col-3{
+	background-color: skyblue;
+}
+.col-4{
+	background-color: royalblue;
+}
