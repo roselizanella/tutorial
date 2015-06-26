@@ -1,0 +1,23 @@
+.topo{
+	background-color: #666;
+	height: 150px;
+}
+.left{
+	background-color: #333;
+}
+.content{
+	background-color: tomato;
+}
+.right{
+	background-color: grey;
+}
+.rodape{
+	background-color: #000;
+	height: 50px;
+}
+
+.left,
+.content,
+.right{
+	height: 500px;
+}
