@@ -1,0 +1,10 @@
+.btn-info{
+	color:yellow;
+	background-color: #3f8ca2;
+	border-color: #287187;
+}
+.btn-info:hover{
+	color: #3f8ca2;
+	background-color: yellow;
+	border-color: #287187;
+}
