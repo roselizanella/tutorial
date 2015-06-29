@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+<!-- Deixa a tela 1 para 1 a partir do celular para desktop -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dropdown</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- //importante a ordem de inclusao dos arquivos primeiro o do bootstrap -->
+	<link rel="stylesheet" href="template.css">
+</head>
+<body>
+	<div class="container">
+		<div class="btn-group">
+		<!-- botoes normais -->
+			<button class="btn btn-info">Button 4</button>
+			<button class="btn btn-warning">Button 5</button>
+			<button class="btn btn-danger">Button 6</button>
+			<button class="btn btn-success">Button 7</button>
+		<!-- botoes com dropdown -->
+			<div class="btn-group">
+				<button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Dropdown<span class="caret"></span></button>
+				<ul class="dropdown-menu">
+					<li><a href="" heaf="#">Sub Item 1</a></li>
+					<li><a href="" heaf="#">Sub Item 2</a></li>
+					<li><a href="" heaf="#">Sub Item 3</a></li>
+					<li><a href="" heaf="#">Sub Item 4</a></li>
+					<li><a href="" heaf="#">Sub Item 5</a></li>
+					<li><a href="" heaf="#">Sub Item 6</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<!-- Para fazer em bloco o botao -->
+<!-- <div class="container">
+	<div class="dropdown">
+		<button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Dropdown<span class="caret"></span></button>
+		<ul class="dropdown-menu">
+			<li><a href="" heaf="#">Sub Item 1</a></li>
+			<li><a href="" heaf="#">Sub Item 2</a></li>
+			<li><a href="" heaf="#">Sub Item 3</a></li>
+			<li><a href="" heaf="#">Sub Item 4</a></li>
+			<li><a href="" heaf="#">Sub Item 5</a></li>
+			<li><a href="" heaf="#">Sub Item 6</a></li>
+		</ul>
+	</div> 
+
+</div>-->
+<!-- Primiero colocar o jquery depois a js do booststrap, essa ordem nao pode ser mudada -->
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
