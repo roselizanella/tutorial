@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+<!-- Deixa a tela 1 para 1 a partir do celular para desktop -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Vertical Form</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- //importante a ordem de inclusao dos arquivos primeiro o do bootstrap -->
+	
+</head>
+<body>
+
+	<div class="container">
+		<form class="col-sm-6">
+			<div class="form-group has-success has-feedback">
+				<label for="input" class="control-label">Imput</label>
+				<input type="text" id="input" class="form-control input-lg">
+				<span class="glyphicon glyphicon-ok form-control-feedback"></span>
+				<span class="help-block">Some Message</span>
+			</div>
+			<div class="form-group">
+				<input type="radio" name="radio" id="radio-1">
+				<label for="radio-1" class="control-label">Radio 1</label>
+				<input type="radio" name="radio" id="radio-2">
+				<label for="radio-2">Radio 2</label>
+			</div>
+			<div class="form-group has-warning has-feedback">
+				<label for="select" class="control-label">Select</label>
+				<select class="form-control input-lg" id="select">
+					<option value="opt-1">Option 1</option>
+					<option value="opt-2">Option 2</option>
+					<option value="opt-3">Option 3</option>
+					<option value="opt-4">Option 4</option>
+					<option value="opt-5">Option 5</option>
+					<option value="opt-6">Option 6</option>
+				</select>
+				<span class="glyphicon glyphicon-warning-sign form-control-feedback">&nbsp;</span>
+			</div>
+			<div class="form-group has-error has-feedback">
+				<label for="textArea" class="control-label">TextArea</label>
+				<textarea class="form-control input-lg" ="" id="texrArea" cols="30" rows="10"></textarea>
+				<span class="glyphicon glyphicon-remove form-control-feedback">&nbsp;</span>
+			</div>
+			<button class="btn btn-default">Submit</button>
+		</form>
+	</div>
+<!-- Primiero colocar o jquery depois a js do booststrap, essa ordem nao pode ser mudada -->
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

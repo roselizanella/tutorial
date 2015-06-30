@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+<!-- Deixa a tela 1 para 1 a partir do celular para desktop -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Horizontal Form</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- //importante a ordem de inclusao dos arquivos primeiro o do bootstrap -->
+	
+</head>
+<body>
+
+	<div class="container">
+		<form class="row form-horizontal">
+			<div class="form-group">
+				<label for="input" class="col-sm-2 control-label">Imput</label>
+				<div class="col-sm-10">
+					<input type="text" id="input" class="form-control">
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="select" class="col-sm-2 control-label">Select</label>
+				<div class="col-sm-10">
+					<select class="form-control" id="select">
+						<option value="opt-1">Option 1</option>
+						<option value="opt-2">Option 2</option>
+						<option value="opt-3">Option 3</option>
+						<option value="opt-4">Option 4</option>
+						<option value="opt-5">Option 5</option>
+						<option value="opt-6">Option 6</option>
+					</select>
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="textArea" class="col-sm-2 control-label">TextArea</label>
+				<div class="col-sm-10">
+					<textarea class="form-control" ="" id="texrArea" cols="30" rows="10"></textarea>
+				</div>
+			</div>
+			<div class="col-sm-12 text-right">
+				<button class="btn btn-default">Submit</button>
+			</div>
+		</form>
+	</div>
+<!-- Primiero colocar o jquery depois a js do booststrap, essa ordem nao pode ser mudada -->
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
