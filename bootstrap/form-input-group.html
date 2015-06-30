@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+<!-- Deixa a tela 1 para 1 a partir do celular para desktop -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form input group</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- //importante a ordem de inclusao dos arquivos primeiro o do bootstrap -->
+	
+</head>
+<body>
+
+	<div class="container">
+		<form class="form-horizontal col-sm-4">
+			<div class="form-group">
+				<div class="input-group">
+					<div class="input-group-addon">$</div>
+					<input type="text" class="form-control">
+					<div class="input-group-addon">,00</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="input-group">
+					<input type="text" class="form-control" placeholder="xxxxx" size="5" maxlength="5">
+					<div class="input-group-addon">-</div>
+					<input type="text" class="form-control" placeholder="xxx" size="3" maxlength="3">
+				</div>
+			</div>
+		</form>
+	</div>
+<!-- Primiero colocar o jquery depois a js do booststrap, essa ordem nao pode ser mudada -->
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
