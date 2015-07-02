@@ -1,0 +1,10 @@
+@path: 'http://www.lorempixel.com';
+@size: 800;
+@category: 'cats';
+
+div.item{
+	width: ~'@{size}px'; //evaluate
+	height: ~'@{size}px';
+	background-color: #ccc;
+	background-image: url('@{path}/@{size}/@{size}/@{category}'); //interpolacao
+}

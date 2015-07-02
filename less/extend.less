@@ -1,0 +1,32 @@
+.gap {
+	margin: 10px;
+	padding: 5px;
+}
+.font{
+	font-size: 24px;
+	font-family: arial;
+}
+.hover{
+	background-color: #f00;
+}
+.item-1:extend(.gap, .font){
+	color: red;
+	&:hover:extend(.hover){}
+		color: lime;
+}
+.item-2:extend(.gap, .font){
+	color: green;
+	&:hover:extend(.hover){}
+		color: green;
+}
+.item-3:extend(.gap, .font){
+	color: blue;
+	&:hover:extend(.hover){}
+		color: #000;
+}
+
+// .item-1
+// .item-2
+// .item-3{
+// 	&:extend(.gap, .font){}
+// }

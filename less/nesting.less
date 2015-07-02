@@ -1,0 +1,26 @@
+.parent {
+	color:red;
+	font-size: 12px;
+
+	.child {
+		color:blue;
+		padding: 10px;
+		&:hover{
+			background-color: salmon;
+		}
+	}
+
+	p {
+		background-color: #333;
+		&::first-line{
+			font-size: 36px;
+		}
+		span {
+			margin: 5px;
+		}
+	}
+
+	>h2 {
+		background-color: yellow;
+	}
+}
